@@ -1,0 +1,84 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	margin: 0;
+}
+.welcome{
+	background-image: url("img/trees1.jpg");
+	background-size: cover;
+	padding: 250px;
+	color: #fff
+
+}
+.title{
+	text-align: center;
+	font-size: 70px
+}
+.title2{
+	margin: 0;
+	text-align: center;
+	font-size: 50px;
+}
+.title3{
+	font-size: 30px;
+}
+.navbar{
+	position: fixed;
+	height: 35px;
+	width: 100%;
+	background-color: #696969;
+}
+.navlist{
+	float: right;	
+}
+.navlist li{
+	display: inline-block;
+}
+.navlist li a{
+	color: #fff;
+	text-decoration: none;
+	margin: 0 15px;
+}
+.navlist li a:hover{
+	color: aqua;
+	text-decoration: underline;
+}
+.basic-section{
+	padding: 50px
+}
+#Lebenslauf{
+	background-color: #EE7600;
+}
+#school{
+	text-align: left;
+}
+#work{
+	text-align: right;
+	list-style-position: outside;
+}
+p, li{
+	font-size: 20px;
+}
+.right {
+float: right;
+margin-left: 10px;
+} 
+#Kompetenzen{
+	background-color: #B43104;
+	font-size: 20px;
+	font-weight: 600;
+}
+#about{
+	background-color: #610B0B;	
+}
+.info{
+	margin: 0 auto;
+}
+#Kontakt{
+	background-color: #696969;
+}
+th, td{
+	padding: 15px;
+	text-align: center;
+}

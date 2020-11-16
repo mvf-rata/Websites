@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		background-image: linear-gradient(white, black);
+}
+
+#main-nav	{
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#navlist {
+	float: right;
+}
+
+#navlist li{
+	display: inline-block;
+	padding-top: 10px;
+}
+
+#navlist li a{
+	color: rgba(169, 0, 0, 1);
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+#navlist li a:hover{
+	color: rgba(164, 0, 0, 1);
+	text-decoration: none;
+}
+
+header {
+	padding: 80px;
+}
+
+#title-quote {
+	background-image: url(img/tokyo-rooftops.jpg);
+	background-size: cover;
+	padding: 400px;
+}
+
+#quote {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 35px;	
+}
+
+
+#title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: rgb(0,0,0);
+	font-size: 45px;
+}
+
+.container {
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+.h2 {
+	margin: 35px 0px;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.h2w {
+	margin: 35px 0px;
+	text-align: center;
+	border-bottom: 2px solid white;
+	color: rgb(255, 255, 255);
+}
+
+.table {
+	border: 5px solid white;
+	margin: 35px auto 35px auto;
+}
+
+p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+footer {
+	word-spacing: 2em;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	padding-bottom: 35px;
+}
